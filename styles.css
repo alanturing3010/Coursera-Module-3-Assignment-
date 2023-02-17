@@ -1,0 +1,79 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(Resources/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(Resources/Oswald-Regular.ttf);
+}
+
+                     /* Styles for Navbar */
+#navmain {
+    margin : 0;
+    padding : 0;
+    background-color: lavender;
+}
+
+#navhead {
+    font-size: 40px;
+}
+#menuicon {
+    height : 20px;
+    width : 20px;
+}
+
+#navlist {
+    list-style-type: none;
+}
+
+.list-items {
+    width : 100%;
+    text-align: center;
+    height :30px;
+    font-size : 20px;
+}
+ 
+li>a {
+    color : black;
+}
+
+li>a:hover {
+    color : black;
+    cursor: pointer;
+}
+
+                      /* Styles for Heading "Our Menu" */
+#menuheading {
+    font-size: 35px;
+    margin : 5px;
+}
+
+
+                      /* Styles for Content */
+
+.content {
+    margin : 20px 10px;
+    padding : 2px 2px 2px 2px;
+    border : 3px solid black;
+    background-color: #b19cd9;
+    color : white;
+    font-size : 20px;
+}
+.heading {
+    text-align: center;
+    margin : 5px;
+    font-size : 35px;
+    font-family: "Oswald";
+}
+
+.para {
+    font-family: "Montserrat";
+}
+
